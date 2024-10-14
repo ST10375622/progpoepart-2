@@ -1,0 +1,32 @@
+﻿@model St10375622Part2.Models.FileDocument
+
+@{
+	ViewData["Title"] = "UploadFile";
+}
+
+<h2>Upload</h2>
+
+<form asp-action="UploadFile" method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		<label asp-for="LecturerId">Lecturer Name</label>
+		<select asp-for="LecturerId" class="form-control" asp-items="@(ViewBag.Lecturer)" >
+			<option value="">-- Select Lecturer --</option>
+		</select>
+		<span asp-validation-for="LecturerId" class="text-danger"></span>
+	</div>
+	@* <div class="form-group">
+		<!--Lecturer Name-->
+		<label asp-for="LecturerName" class="control-label">Lecturer Name</label>
+		<input asp-for="LecturerName" class="form-control" />
+		<span asp-validation-for="LecturerName" class="text-danger"></span>
+	</div> *@
+	<div class="form-group">
+		<label asp-for="fileUpload" class="control-label"></label>
+		<input asp-for="fileUpload" class="form-control" />
+		<span asp-validation-for="fileUpload" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="submit" value="UploadFile" class="btn btn-primary" />
+	</div>
+</form>
+

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<St10375622Part2.Models.FileDocument>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="UploadFile">Upload File</a>
+</p>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.LecturerName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FileName)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.LecturerName)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.FileName)
+				</td>
+				@* <td>
+			<a asp-action="DownloadFile" asp-route-id="@item.Id">Download</a> |
+			<a asp-action="DeleteFile" asp-route-id="@item.Id">Delete</a>
+			</td> *@
+			</tr>
+		}
+	</tbody>
+
