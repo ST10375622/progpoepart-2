@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\St10375622Part2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\Instagram.png",
+      "PackagePath": "staticwebassets\\Instagram.png"
+    },
+    {
       "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\facebook.png",
+      "PackagePath": "staticwebassets\\facebook.png"
     },
     {
       "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\favicon.ico",
@@ -247,6 +255,18 @@
     {
       "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LeahCV.docx",
       "PackagePath": "staticwebassets\\uploads\\LeahCV.docx"
+    },
+    {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\Zinhle_CV.docx",
+      "PackagePath": "staticwebassets\\uploads\\Zinhle_CV.docx"
+    },
+    {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\whatsapp.png",
+      "PackagePath": "staticwebassets\\whatsapp.png"
+    },
+    {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\youtube.png",
+      "PackagePath": "staticwebassets\\youtube.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.St10375622Part2.Microsoft.AspNetCore.StaticWebAssets.props",
