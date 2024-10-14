@@ -7,16 +7,17 @@ namespace St10375622Part2.Models
 		[Key]
 		public int ClaimId { get; set; }
 
-		public string LecturerId { get; set; }
+		public int LecturerId { get; set; }
 		public string LecturerName { get; set; }
 
 		[Required(ErrorMessage = "Hours Worked are Required")]
 		[Range(1, 1000, ErrorMessage = "Hours Worked must be between 1 and 1000")]
 		public int HoursWorked { get; set; }
 		[Required(ErrorMessage = "Hourly Rate is required")]
-		[Range(20, 1000, ErrorMessage = "Hourly Rate must be between 1 and 1000")]
+		[Range(20, 1000, ErrorMessage = "Hourly Rate must be between 20 and 1000")]
 		public int HourlyRate { get; set; }
-		[Range(2, 200, ErrorMessage = "Note must be between 2 and 200")]
+
+		[StringLength(2000, MinimumLength = 2, ErrorMessage = "Note must be between 2 and 2000 characters")]
 		public string AdditionalNotes { get; set; }
 		public string Status { get; set; } = "Pending";
 	}

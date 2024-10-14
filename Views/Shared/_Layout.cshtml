@@ -28,9 +28,10 @@
                                 Lecturer
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="" asp-controller="Lecturers" asp-action="Create">Create</a>
-                                @* <a class="dropdown-item" asp-area="" asp-controller="LecturerClaims" asp-action="Create">Submit Claims</a> *@
+                                <a class="dropdown-item" asp-area="" asp-controller="Lecturers" asp-action="Create">Create Lecturer</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Create">Submit Claims</a>
                                 <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="UploadFile">Upload Documents</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Create">View Claims</a>
                             </div>
                         </li>
                         <!--Dropdown List for Programme tab-->
@@ -40,7 +41,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" asp-area="" asp-controller="ProgrammeCoordinators" asp-action="Create">Create</a>
-                                @* <a class="dropdown-item" asp-area="" asp-controller="ClaimStatus" asp-action="Index">Claim Status</a> *@
+                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
                             </div>
                         </li>
                         <!--Dropdown List for Academic Manager tab-->
@@ -50,7 +51,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" asp-area="" asp-controller="AcademicManagers" asp-action="Create">Create</a>
-                                @* <a class="dropdown-item" asp-area="" asp-controller="ClaimStatus" asp-action="Index">Claim Status</a> *@
+                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
                             </div>
                         </li>
                         <li class="nav-item">

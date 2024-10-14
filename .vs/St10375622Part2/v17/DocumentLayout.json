@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\data\\migrations\\20241014173910_adminusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:data\\migrations\\20241014173910_adminusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\controllers\\programmecoordinatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:controllers\\programmecoordinatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\views\\lecturerclaim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:views\\lecturerclaim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\controllers\\academicmanagerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:controllers\\academicmanagerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:controllers\\lecturerclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\models\\lecturerclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:models\\lecturerclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|c:\\users\\mosia\\source\\repos\\st10375622part2\\data\\migrations\\20241014215457_claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10320DFA-1DEE-42E6-AE50-F6FA6E941D48}|St10375622Part2.csproj|solutionrelative:data\\migrations\\20241014215457_claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241014173910_AdminUsers.cs",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Data\\Migrations\\20241014173910_AdminUsers.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241014173910_AdminUsers.cs",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Data\\Migrations\\20241014173910_AdminUsers.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241014173910_AdminUsers.cs",
+              "DocumentIndex": 4,
+              "Title": "20241014215457_Claims.cs",
+              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Data\\Migrations\\20241014215457_Claims.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20241014215457_Claims.cs",
+              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Data\\Migrations\\20241014215457_Claims.cs",
+              "RelativeToolTip": "Data\\Migrations\\20241014215457_Claims.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:39:11.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProgrammeCoordinatorsController.cs",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\ProgrammeCoordinatorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProgrammeCoordinatorsController.cs",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\ProgrammeCoordinatorsController.cs",
-              "RelativeToolTip": "Controllers\\ProgrammeCoordinatorsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:23:45.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AcademicManagersController.cs",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\AcademicManagersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AcademicManagersController.cs",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\AcademicManagersController.cs",
-              "RelativeToolTip": "Controllers\\AcademicManagersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:19:31.902Z",
+              "WhenOpened": "2024-10-14T21:54:58.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\LecturerClaim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LecturerClaim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\LecturerClaim\\Index.cshtml",
+              "RelativeToolTip": "Views\\LecturerClaim\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAIAwwBUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T18:29:18.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAADgvzMAAABlAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAIAwwCsAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-14T01:24:42.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\ContactUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\ContactUs.cshtml",
-              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwCAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T01:24:25.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\AboutUs.cshtml",
-              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwCAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T01:23:18.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T01:21:35.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCEAAAADAAAA",
+              "DocumentIndex": 2,
+              "Title": "LecturerClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\LecturerClaimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecturerClaimController.cs",
+              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Controllers\\LecturerClaimController.cs",
+              "RelativeToolTip": "Controllers\\LecturerClaimController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:19:44.975Z"
+              "WhenOpened": "2024-10-14T18:11:02.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAQwFUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-14T01:13:29.843Z"
+              "DocumentIndex": 3,
+              "Title": "LecturerClaim.cs",
+              "DocumentMoniker": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Models\\LecturerClaim.cs",
+              "RelativeDocumentMoniker": "Models\\LecturerClaim.cs",
+              "ToolTip": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\Models\\LecturerClaim.cs",
+              "RelativeToolTip": "Models\\LecturerClaim.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:07:58.109Z",
+              "EditorCaption": ""
             }
           ]
         }

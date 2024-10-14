@@ -1,0 +1,54 @@
+﻿@model IEnumerable<St10375622Part2.Models.LecturerClaim>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="Create">Create New</a>
+	</p>
+
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lecturer Name</th>
+                <th>Hours Worked</th>
+                <th>Hourly Rate</th>
+                <th>Additional Notes</th>
+                <th>Status</th>
+                <th>Change Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.LecturerName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.HoursWorked)</td>
+                    <td>@Html.DisplayFor(modelItem => item.HourlyRate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AdditionalNotes)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>
+                        <a asp-action="Reject" asp-route-id="@item.ClaimId">Reject</a> |
+                        <a asp-action="Approve" asp-route-id="@item.ClaimId">Approve</a> 
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ClaimId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ClaimId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ClaimId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No claims found.</p>
+}
