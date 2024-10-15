@@ -32,6 +32,9 @@
 				<td>
 					@Html.DisplayFor(modelItem => item.FileName)
 				</td>
+				<td>
+					<a asp-action="DeleteFile" asp-route-id="@item.FileId">Delete</a>
+				</td>
 				@* <td>
 			<a asp-action="DownloadFile" asp-route-id="@item.Id">Download</a> |
 			<a asp-action="DeleteFile" asp-route-id="@item.Id">Delete</a>

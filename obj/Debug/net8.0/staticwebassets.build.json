@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x/kOZNexaMxl7RIwYtk72ZSfKV/jct9KxKpqrqCesDk=",
+  "Hash": "Ie2znb7xofWuUM+711RvI8LcPmjN5z++8IL7ul2PNYQ=",
   "Source": "St10375622Part2",
   "BasePath": "_content/St10375622Part2",
   "Mode": "Default",
@@ -2373,6 +2373,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LeahCoverLetter.docx",
+      "SourceId": "St10375622Part2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\",
+      "BasePath": "_content/St10375622Part2",
+      "RelativePath": "uploads/LeahCoverLetter.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LeahCoverLetter.docx"
+    },
+    {
       "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LeahCV.docx",
       "SourceId": "St10375622Part2",
       "SourceType": "Discovered",
@@ -2390,6 +2409,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\LeahCV.docx"
+    },
+    {
+      "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LiamCV.docx",
+      "SourceId": "St10375622Part2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\",
+      "BasePath": "_content/St10375622Part2",
+      "RelativePath": "uploads/LiamCV.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LiamCV.docx"
     },
     {
       "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\Zinhle_CV.docx",

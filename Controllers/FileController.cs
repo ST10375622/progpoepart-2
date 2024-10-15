@@ -57,6 +57,16 @@ namespace St10375622Part2.Controllers
 						await model.fileUpload.CopyToAsync(stream);
 					}
 
+					//retrieve the lecturer name based on the selected lecturer id
+					var lecturer = _context.Lecturers.FirstOrDefault(l => l.LecturerId == model.LecturerId);
+					if (lecturer != null)
+					{
+                        model.LecturerName = lecturer.Name;
+                    }
+                    else
+					{
+                        model.LecturerName = "Unknown";
+                    }
 					//save the file details to the database
 					model.FileName = fileName;
 					model.FileExtension = fileExtension;
@@ -75,6 +85,24 @@ namespace St10375622Part2.Controllers
 			
 			return View();
 		}
+
+		//delete the file from the server and the database
+		public async Task<IActionResult> DeleteFile(int id)
+		{
+            var file = _context.File.FirstOrDefault(f => f.FileId == id);
+            if (file != null)
+			{
+                //delete the file from the server
+                if (System.IO.File.Exists(file.FilePath))
+				{
+                    System.IO.File.Delete(file.FilePath);
+                }
+                //delete the file from the database
+                _context.Remove(file);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction("Index");
+        }
 
 
 	}
