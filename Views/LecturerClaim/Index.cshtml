@@ -10,8 +10,44 @@
 	<a asp-action="Create">Create New</a>
 	</p>
 
+<div class="container group">
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">@Html.DisplayFor(modelItem => item.LecturerName)</h3>
+                            <p><strong>Hours Worked:</strong> @Html.DisplayFor(modelItem => item.HoursWorked)</p>
+                            <p><strong>Hourly Rate:</strong> @Html.DisplayFor(modelItem => item.HourlyRate)</p>
+                            <p><strong>Notes:</strong> @Html.DisplayFor(modelItem => item.AdditionalNotes)</p>
+                            <p><strong>Status:</strong> @Html.DisplayFor(modelItem => item.Status)</p>
+                            <div class="mt-2">
+                                <a href="@Url.Action("Reject", new { id = item.ClaimId })" class="btn btn-danger btn-sm">Reject</a>
+                                <a href="@Url.Action("Approve", new { id = item.ClaimId })" class="btn btn-success btn-sm">Approve</a>
+                            </div>
+                            <div class="mt-2">
+                                <a href="@Url.Action("Edit", new { id = item.ClaimId })" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="@Url.Action("Details", new { id = item.ClaimId })" class="btn btn-info btn-sm">Details</a>
+                                <a href="@Url.Action("Delete", new { id = item.ClaimId })" class="btn btn-danger btn-sm">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No claims found.</p>
+    }
+</div>
 
-@if (Model != null && Model.Any())
+
+@* @if (Model != null && Model.Any())
 {
     <table class="table">
         <thead>
@@ -51,4 +87,4 @@
 else
 {
     <p>No claims found.</p>
-}
+} *@

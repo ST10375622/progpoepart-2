@@ -41,7 +41,9 @@ namespace St10375622Part2.Controllers
 			if (model.fileUpload != null && model.fileUpload.Length > 0)
 			{
 				//validate the file extension to only accept pdf, docx
-				if (model.fileUpload.ContentType == "application/pdf" || model.fileUpload.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+				if (model.fileUpload.ContentType == "application/pdf" || 
+					model.fileUpload.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ||
+					model.fileUpload.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 				{
 					//get the file extension
 					var fileExtension = Path.GetExtension(model.fileUpload.FileName);
