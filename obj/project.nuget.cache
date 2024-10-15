@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/XmLr6ACNbGJxwr93YXajNAZvXBf8DakAPLHlrxKT+0Vx51cAmsf2AIo4Ll0qGah4+gERXVPSoaE2zBwO0g29A==",
+  "dgSpecHash": "vQnhpCDCCO0BH3N4F1bxvrI+mHNMvtZMtV6NB9lKGZBRenGjH+cZL4Vk9i7fmpH7EHjMFKOhF2U8GtDenvJOVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\St10375622Part2.csproj",
   "expectedPackageFiles": [
@@ -133,6 +133,7 @@
     "C:\\Users\\mosia\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\mosia\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\mosia\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\mosia\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\mosia\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\mosia\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\mosia\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
