@@ -19,7 +19,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: beige;
+    background-color: #CCD1DB;
 }
 
 footer {
@@ -87,3 +87,74 @@ p .Heading {
     font-size: medium;
     font-family: 'Arial Rounded MT';
 }
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #F5F2F0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 100%;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+    .form-control:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 5px #EBBAC2;
+    }
+
+.form-floating label {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+button#login-submit {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 12px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+    button#login-submit:hover {
+        background-color: #0056b3;
+    }
+
+    button#login-submit:active {
+        background-color: #004085;
+    }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col-md-4 {
+    max-width: 400px;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+

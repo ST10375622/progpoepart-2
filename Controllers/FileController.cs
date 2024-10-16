@@ -41,6 +41,9 @@ namespace St10375622Part2.Controllers
 			if (model.fileUpload != null && model.fileUpload.Length > 0)
 			{
 				//validate the file extension to only accept pdf, docx
+				//Reference:
+				//C# Corner (2024) 
+				//
 				if (model.fileUpload.ContentType == "application/pdf" || 
 					model.fileUpload.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ||
 					model.fileUpload.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")

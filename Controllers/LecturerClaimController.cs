@@ -76,18 +76,22 @@ namespace St10375622Part2.Controllers
             return View(lecturerClaim);
         }
 
+        //when the claim gets approved it will go here
         public IActionResult Approve(int id)
         {
             var lecturerClaim = _context.LecturerClaims.Find(id);
+            //the status will be changed to approved
             lecturerClaim.Status = "Approved";
             _context.LecturerClaims.Update(lecturerClaim);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
 
+        //when the claim gets rejected it will go here
         public IActionResult Reject(int id)
         {
             var lecturerClaim = _context.LecturerClaims.Find(id);
+            //the status will change to rejected
             lecturerClaim.Status = "Rejected";
             _context.LecturerClaims.Update(lecturerClaim);
             _context.SaveChanges();

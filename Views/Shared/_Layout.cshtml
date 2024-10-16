@@ -22,49 +22,59 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <!--Dropdown List for Lecturer tab-->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Lecturer
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="" asp-controller="Lecturers" asp-action="Create">Create Lecturer</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Create">Submit Claims</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="UploadFile">Upload Documents</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">View Claims</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="Calculation" asp-action="Index">Calculate</a>
-                            </div>
-                        </li>
-                        <!--Dropdown List for Programme tab-->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Programme Coordinator
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="" asp-controller="ProgrammeCoordinators" asp-action="Create">Create</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="Index">View Files</a>
-                            </div>
-                        </li>
-                        <!--Dropdown List for Academic Manager tab-->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Academic Manager
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-area="" asp-controller="AcademicManagers" asp-action="Create">Create</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
-                            </div>
-                        </li>
+                        <!--Only the lecturer user can view this -->
+                        @if (User.IsInRole("lecturer"))
+                        {
+                            <!--Dropdown List for Lecturer tab-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Lecturer
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Lecturers" asp-action="Create">Create Lecturer</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Create">Submit Claims</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="UploadFile">Upload Documents</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">View Claims</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Calculation" asp-action="Index">Calculate</a>
+                                </div>
+                            </li>
+                        }
+                        else
+                        @if (User.IsInRole("Programme Coordinator"))
+                        {
+                            <!--Dropdown List for Programme tab-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Programme Coordinator
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="" asp-controller="ProgrammeCoordinators" asp-action="Create">Create</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="Index">View Files</a>
+                                </div>
+                            </li>
+                        }
+                        else
+                        @if (User.IsInRole("Academic Manager"))
+                        {
+                            <!--Dropdown List for Academic Manager tab-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Academic Manager
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="" asp-controller="AcademicManagers" asp-action="Create">Create</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
+                                </div>
+                            </li>
+                        }
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="AppRoles" asp-action="Index">User</a>
-                        </li>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
+                            </li>
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

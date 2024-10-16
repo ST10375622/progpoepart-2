@@ -29,15 +29,15 @@ namespace St10375622Part2.Models
 
             if (HoursWorked <= 100)
             {
-                interestRate = (int)0.01m; // 1% interest for <= 100 hours
+                interestRate = 10; // 10% interest for <= 100 hours
             }
             else if (HoursWorked <= 500)
             {
-                interestRate = (int)0.02m; // 2% interest for <= 500 hours
+                interestRate = 20; // 20% interest for <= 500 hours
             }
             else
             {
-                interestRate = (int)0.03m; // 3% interest for > 500 hours
+                interestRate = 50; // 50% interest for > 500 hours
             }
 
             // Calculate the interest earned

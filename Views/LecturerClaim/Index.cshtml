@@ -4,7 +4,7 @@
 	ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Past Claims</h1>
 
 <p>
 	<a asp-action="Create">Create New</a>
@@ -25,15 +25,16 @@
                             <p><strong>Hourly Rate:</strong> @Html.DisplayFor(modelItem => item.HourlyRate)</p>
                             <p><strong>Notes:</strong> @Html.DisplayFor(modelItem => item.AdditionalNotes)</p>
                             <p><strong>Status:</strong> @Html.DisplayFor(modelItem => item.Status)</p>
-                            <div class="mt-2">
-                                <a href="@Url.Action("Reject", new { id = item.ClaimId })" class="btn btn-danger btn-sm">Reject</a>
-                                <a href="@Url.Action("Approve", new { id = item.ClaimId })" class="btn btn-success btn-sm">Approve</a>
-                            </div>
-                            <div class="mt-2">
-                                <a href="@Url.Action("Edit", new { id = item.ClaimId })" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="@Url.Action("Details", new { id = item.ClaimId })" class="btn btn-info btn-sm">Details</a>
-                                <a href="@Url.Action("Delete", new { id = item.ClaimId })" class="btn btn-danger btn-sm">Delete</a>
-                            </div>
+
+                            <!--only the Academic manager and the programme coordinator can change the status-->
+                            @if (User.IsInRole("Academic Manager") || User.IsInRole("Programme Coordinator"))
+                            {
+                                <div class="mt-2">
+                                    <a href="@Url.Action("Reject", new { id = item.ClaimId })" class="btn btn-danger btn-sm">Reject</a>
+                                    <a href="@Url.Action("Approve", new { id = item.ClaimId })" class="btn btn-success btn-sm">Approve</a>
+                                </div>
+                            }
+                            
                         </div>
                     </div>
                 </div>
@@ -45,46 +46,3 @@
         <p>No claims found.</p>
     }
 </div>
-
-
-@* @if (Model != null && Model.Any())
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Lecturer Name</th>
-                <th>Hours Worked</th>
-                <th>Hourly Rate</th>
-                <th>Additional Notes</th>
-                <th>Status</th>
-                <th>Change Status</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@Html.DisplayFor(modelItem => item.LecturerName)</td>
-                    <td>@Html.DisplayFor(modelItem => item.HoursWorked)</td>
-                    <td>@Html.DisplayFor(modelItem => item.HourlyRate)</td>
-                    <td>@Html.DisplayFor(modelItem => item.AdditionalNotes)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
-                    <td>
-                        <a asp-action="Reject" asp-route-id="@item.ClaimId">Reject</a> |
-                        <a asp-action="Approve" asp-route-id="@item.ClaimId">Approve</a> 
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.ClaimId">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.ClaimId">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.ClaimId">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p>No claims found.</p>
-} *@
