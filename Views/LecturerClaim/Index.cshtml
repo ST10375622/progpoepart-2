@@ -5,10 +5,14 @@
 }
 
 <h1>Past Claims</h1>
-
-<p>
-	<a asp-action="Create">Create New</a>
+@if (User.IsInRole("lecturer"))
+{
+    <p>
+		<a asp-action="Create">Create New</a>
 	</p>
+}
+	
+
 
 <div class="container group">
     @if (Model != null && Model.Any())

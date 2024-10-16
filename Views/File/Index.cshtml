@@ -33,9 +33,15 @@
 
 <h1>Index</h1>
 
-<p>
-	<a asp-action="UploadFile">Upload File</a>
-</p>
+<!--Restrict link to only be used by lecturers-->
+@if (User.IsInRole("lecturer"))
+{
+	<p>
+		<a asp-action="UploadFile">Upload File</a>
+	</p>
+}
+
+
 
 <table class="table">
 	<thead>
@@ -59,9 +65,12 @@
 				<td>
 					@Html.DisplayFor(modelItem => item.FileName)
 				</td>
-				<td>
-					<a asp-action="DeleteFile" asp-route-id="@item.FileId">Delete</a>
+				@if (User.IsInRole("Academic Manager") || User.IsInRole("Programme Coordinator"))
+				{
+					<td>
+						<a asp-action="DeleteFile" asp-route-id="@item.FileId">Delete</a>
 				</td>
+				}
 				@* <td>
 			<a asp-action="DownloadFile" asp-route-id="@item.Id">Download</a> |
 			<a asp-action="DeleteFile" asp-route-id="@item.Id">Delete</a>

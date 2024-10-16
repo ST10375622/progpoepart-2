@@ -97,7 +97,7 @@ h1, h2 {
 
 section {
     background-color: #F5F2F0;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -146,7 +146,7 @@ button#login-submit {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .col-md-4 {
@@ -157,4 +157,67 @@ button#login-submit {
 section {
     width: 100%;
 }
+
+.container.group {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 {
+    flex: 1 1 22%; 
+    min-width: 250px; 
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #CCD1DB;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    }
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-body p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.mt-2 {
+    margin-top: 5px;
+}
+
 
