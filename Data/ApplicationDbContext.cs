@@ -18,7 +18,11 @@ namespace St10375622Part2.Data
 		public DbSet<LecturerClaim> LecturerClaims { get; set; }
 
 		public DbSet<Calculation> Calculations { get; set; }
+
+		public DbSet<ApplicationUser> User { get; set; }
+
 	    public DbSet<St10375622Part2.Models.AcademicManager> AcademicManager { get; set; } = default!;
 	    public DbSet<St10375622Part2.Models.ProgrammeCoordinator> ProgrammeCoordinator { get; set; } = default!;
+	    public DbSet<St10375622Part2.Models.ProjectUsers> ProjectUsers { get; set; } = default!;
 	}
 }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using St10375622Part2.Data;
+using St10375622Part2.Models;
 
 namespace St10375622Part2
 {
@@ -16,11 +17,13 @@ namespace St10375622Part2
 				options.UseSqlServer(connectionString));
 			builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-			builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-				.AddEntityFrameworkStores<ApplicationDbContext>();
+			builder.Services.AddDefaultIdentity<IdentityUser>(/*options => options.SignIn.RequireConfirmedAccount = true*/).AddDefaultTokenProviders()
+				.AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
 			builder.Services.AddControllersWithViews();
 
 			var app = builder.Build();
+
 
 			// Configure the HTTP request pipeline.
 			if (app.Environment.IsDevelopment())

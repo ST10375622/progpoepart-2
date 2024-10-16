@@ -60,7 +60,7 @@ namespace St10375622Part2.Controllers
             {
                 _context.Add(lecturer);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
             return View(lecturer);
         }

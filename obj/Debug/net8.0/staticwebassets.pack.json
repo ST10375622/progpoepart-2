@@ -253,8 +253,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LeahCV.docx",
+      "PackagePath": "staticwebassets\\uploads\\LeahCV.docx"
+    },
+    {
       "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LeahCoverLetter.docx",
       "PackagePath": "staticwebassets\\uploads\\LeahCoverLetter.docx"
+    },
+    {
+      "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\LiamCV.docx",
+      "PackagePath": "staticwebassets\\uploads\\LiamCV.docx"
     },
     {
       "Id": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\whatsapp.png",

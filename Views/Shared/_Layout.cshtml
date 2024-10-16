@@ -43,6 +43,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" asp-area="" asp-controller="ProgrammeCoordinators" asp-action="Create">Create</a>
                                 <a class="dropdown-item" asp-area="" asp-controller="LecturerClaim" asp-action="Index">Change Claim Status</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="File" asp-action="Index">View Files</a>
                             </div>
                         </li>
                         <!--Dropdown List for Academic Manager tab-->
@@ -60,6 +61,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AppRoles" asp-action="Index">User</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
