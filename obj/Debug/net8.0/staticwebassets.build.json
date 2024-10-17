@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Fx/Im/4FA4eZqyzrxHrNfPOrW9Egtq6/f8AkuJ/Wmg=",
+  "Hash": "llwu06VUTYH0wZfXZnB6Hts7y7kZigGLoBturQtzPGU=",
   "Source": "St10375622Part2",
   "BasePath": "_content/St10375622Part2",
   "Mode": "Default",
@@ -2428,6 +2428,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\LiamCV.docx"
+    },
+    {
+      "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\uploads\\Zinhle_CV.docx",
+      "SourceId": "St10375622Part2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\",
+      "BasePath": "_content/St10375622Part2",
+      "RelativePath": "uploads/Zinhle_CV.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Zinhle_CV.docx"
     },
     {
       "Identity": "C:\\Users\\mosia\\source\\repos\\St10375622Part2\\wwwroot\\whatsapp.png",
